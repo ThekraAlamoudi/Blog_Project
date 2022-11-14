@@ -18,5 +18,5 @@
 
 ## Snapshots
 
-![Desktop Screen]()
-![Mobile Screen](https://drive.google.com/file/d/1jJJLDyNhQlcMeBsOzr8gpLkCgCghIDrl/view?usp=sharing)
+![Desktop Screen](https://drive.google.com/file/d/1jJJLDyNhQlcMeBsOzr8gpLkCgCghIDrl/view?usp=share_link)
+![Mobile Screen](https://drive.google.com/file/d/1jJJLDyNhQlcMeBsOzr8gpLkCgCghIDrl/view)
