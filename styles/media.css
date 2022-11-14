@@ -1,0 +1,48 @@
+@media (min-width: 1398px) {
+  .posts {
+    grid-auto-flow: column;
+  }
+  .post-text-flex {
+    padding: 19%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .navbar {
+    height: 250px;
+  }
+
+  .banner {
+    height: 150px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .posts {
+    grid-auto-flow: row;
+  }
+  .post-text-flex {
+    padding: 0;
+  }
+
+}
+
+/* Mid size screen */
+@media (max-width: 950px) {
+
+  .posts {
+    grid-auto-flow: row;
+  }
+
+  .post-text-flex {
+    padding: 29%;
+  }
+}

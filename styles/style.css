@@ -1,0 +1,150 @@
+@import url(media.css);
+@import url(layout.css);
+@import url(text.css);
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #3f2c34;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header */
+
+.banner {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/banner-image.jpg) center/cover no-repeat fixed;
+    background-color: #9E7777;
+    color: #fff;
+
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+.banner p {
+    margin: 20px 0;
+}
+
+.banner .grid {
+    overflow: visible;
+    grid-template-columns: 55% auto;
+    gap: 30px;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #9E7777;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+/* Cards/posts */
+
+.posts {
+    display: grid;
+    overflow: visible;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.post-img {
+    border-radius: 15px;
+}
+
+.content-card {
+    display: grid;
+    height: 350px;
+    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 7px 7px 20px #555;
+    justify-items: center;
+    align-items: center;
+    margin: 10%;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    display: grid;
+    background-color: #6F4C5B;
+    color: #fff;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-flow: row;
+}
+
+.social-img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-img:hover {
+    opacity: 0.4;
+}
+
+.post-text-flex {
+    justify-content: center;
+    justify-items: center;
+    grid-auto-flow: row;
+    background-color: #f0d9c6;
+}
+
+.post-content-img {
+    height: 150px;
+    width: 300px;
+}
