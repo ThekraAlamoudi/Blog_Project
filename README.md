@@ -16,7 +16,3 @@
  ## Live
 [Here](https://thekraalamoudi.github.io/Blog_Project/index.html)
 
-## Snapshots
-
-![Desktop Screen](https://drive.google.com/file/d/1jJJLDyNhQlcMeBsOzr8gpLkCgCghIDrl/view?usp=share_link)
-![Mobile Screen](https://drive.google.com/file/d/1jJJLDyNhQlcMeBsOzr8gpLkCgCghIDrl/view)
